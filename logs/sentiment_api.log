@@ -1,0 +1,23 @@
+2025-12-09 17:19:49.064 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:21:02.065 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : text='Hello'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:21:12.162 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : text='Hello'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:21:12.162 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : text='Hello'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:21:19.615 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : Hello. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:30:07.474 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'What'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:31:10.653 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'What'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:35:57.444 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Hello'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:37:56.321 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Hello'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:38:12.019 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Hello'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:38:52.931 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Hello !
+'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:38:52.931 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Hello !
+'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:43:46.369 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Hello'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:44:20.279 | INFO     | backend.modules.sentiment_tools:give_sentiment:12 - Résultats: Hello
+2025-12-09 17:44:20.282 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Hello'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:44:20.282 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Hello'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-09 17:44:23.722 | INFO     | backend.modules.sentiment_tools:give_sentiment:12 - Résultats: The love of money is the root of all evil.
+2025-12-09 17:44:23.722 | INFO     | backend.modules.sentiment_tools:give_sentiment:12 - Résultats: The love of money is the root of all evil.
+2025-12-09 17:44:23.725 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'The love of money is the root of all evil.'. Résultats: {'neg': 0.265, 'neu': 0.482, 'pos': 0.253, 'compound': -0.0516}
+2025-12-09 17:44:23.725 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'The love of money is the root of all evil.'. Résultats: {'neg': 0.265, 'neu': 0.482, 'pos': 0.253, 'compound': -0.0516}
+2025-12-09 17:44:23.725 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'The love of money is the root of all evil.'. Résultats: {'neg': 0.265, 'neu': 0.482, 'pos': 0.253, 'compound': -0.0516}
