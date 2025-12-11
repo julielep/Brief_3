@@ -1,2 +1,3 @@
 .venv
 DEV
+logs.sentiment_api.log

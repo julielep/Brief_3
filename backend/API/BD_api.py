@@ -1,4 +1,4 @@
-#backend/main.py
+#backend/BD_api.py
 import uvicorn
 import os
 import random
@@ -34,12 +34,12 @@ app = FastAPI(title='API')
 
 @app.get("/") 
 def read_root(): 
+    """Vérifie que la root fonctionne."""
     return {"Hello": "world", "status": "API is running"}
 
 @app.post("/insert/", response_model=QuoteResponse)
 def insert_quote(quote : QuoteRequest):
     """Insère une nouvelle citation."""
-
     df = read_db()
     if df.empty:
         new_id = 1
@@ -49,7 +49,7 @@ def insert_quote(quote : QuoteRequest):
         new_id = 1 + df.index.max()
 
     objet = {"text": [quote.text]}  
-    write_db(objet['text'])
+    write_db(objet['text'][0])
     return {"id": new_id, "text": quote.text} 
 
 @app.get("/read/", response_model=List[QuoteResponse])
@@ -92,8 +92,6 @@ def read_idx():
 
 
 if __name__ == "__main__": 
-    #On change le port API
-    #1 on récupère le port de l'API
     try:
         port = os.getenv("FAST_API_PORT", "8080")
         url = os.getenv("API_BASE_URL")
@@ -103,7 +101,6 @@ if __name__ == "__main__":
         print("ERREUR")
         port = 8080
 
-    #2. on lance uvicorn 
     uvicorn.run("backend.API.BD_api:app", 
                 host = url, 
                 port = port, 

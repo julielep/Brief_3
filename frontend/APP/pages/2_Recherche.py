@@ -45,15 +45,18 @@ if "quote" in st.session_state and st.session_state.quote:
     if st.button("Analyser les sentiments de la citation"):
         if st.session_state.quote:
             data = {"text": st.session_state.quote}
+            st.write(f"*Citation à analyser* : {data['text']}")
+            if data:
+                logger.info(f"Texte à analyser: {data['text']}")
             try:
                 response = requests.post(API_URL_IA, json=data)
                 if response.status_code == 200:
                     sentiment = response.json()
                     st.write("Résultats de l'analyse :")
-                    st.write(f"Polarité négative : {sentiment['neg']}")
-                    st.write(f"Polarité neutre : {sentiment['neu']}")
-                    st.write(f"Polarité positive : {sentiment['pos']}")
-                    st.write(f"Score composé : {sentiment['compound']}")
+                    st.write(f"- Polarité négative : {sentiment['neg']}")
+                    st.write(f"- Polarité neutre : {sentiment['neu']}")
+                    st.write(f"- Polarité positive : {sentiment['pos']}")
+                    st.write(f"- Score composé : {sentiment['compound']}")
                     if sentiment['compound'] >= 0.05 :
                         st.write("Sentiment global : Positif 😀")
                     elif sentiment['compound'] <= -0.05 :

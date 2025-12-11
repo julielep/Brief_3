@@ -21,3 +21,20 @@
 2025-12-09 17:44:23.725 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'The love of money is the root of all evil.'. Résultats: {'neg': 0.265, 'neu': 0.482, 'pos': 0.253, 'compound': -0.0516}
 2025-12-09 17:44:23.725 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'The love of money is the root of all evil.'. Résultats: {'neg': 0.265, 'neu': 0.482, 'pos': 0.253, 'compound': -0.0516}
 2025-12-09 17:44:23.725 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'The love of money is the root of all evil.'. Résultats: {'neg': 0.265, 'neu': 0.482, 'pos': 0.253, 'compound': -0.0516}
+2025-12-11 10:46:45.927 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Good !'. Résultats: {'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.4926}
+2025-12-11 10:52:11.034 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Good !'. Résultats: {'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.4926}
+2025-12-11 10:53:02.657 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Good !'. Résultats: {'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.4926}
+2025-12-11 10:53:29.789 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Good !'. Résultats: {'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.4926}
+2025-12-11 10:54:25.640 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Good !'. Résultats: {'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.4926}
+2025-12-11 10:54:42.919 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'Good !'. Résultats: {'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.4926}
+2025-12-11 10:54:50.741 | INFO     | backend.modules.sentiment_tools:give_sentiment:12 - Résultats: What
+2025-12-11 10:54:50.743 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'What'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-11 10:54:50.743 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'What'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+2025-12-11 10:54:56.455 | INFO     | backend.modules.sentiment_tools:give_sentiment:12 - Résultats: The love of money is the root of all evil.
+2025-12-11 10:54:56.455 | INFO     | backend.modules.sentiment_tools:give_sentiment:12 - Résultats: The love of money is the root of all evil.
+2025-12-11 10:54:56.474 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'The love of money is the root of all evil.'. Résultats: {'neg': 0.265, 'neu': 0.482, 'pos': 0.253, 'compound': -0.0516}
+2025-12-11 10:54:56.474 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'The love of money is the root of all evil.'. Résultats: {'neg': 0.265, 'neu': 0.482, 'pos': 0.253, 'compound': -0.0516}
+2025-12-11 10:54:56.474 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'The love of money is the root of all evil.'. Résultats: {'neg': 0.265, 'neu': 0.482, 'pos': 0.253, 'compound': -0.0516}
+2025-12-11 10:55:18.757 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'The love of money is the root of all evil.'. Résultats: {'neg': 0.265, 'neu': 0.482, 'pos': 0.253, 'compound': -0.0516}
+2025-12-11 10:56:01.070 | INFO     | backend.API.sentiment_api:analyse_sentiment:34 - Texte : 'The love of money is the root of all evil.'. Résultats: {'neg': 0.265, 'neu': 0.482, 'pos': 0.253, 'compound': -0.0516}
+2025-12-11 11:05:25.459 | INFO     | backend.API.sentiment_api:analyse_sentiment:35 - Texte : 'test'. Résultats: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}

@@ -2,7 +2,6 @@
 import streamlit as st
 import requests
 import os
-import pandas as pd
 
 from lingua import Language, LanguageDetectorBuilder
 
@@ -29,12 +28,11 @@ with st.form("insert_form"):
         #On vérifie que le texte n'est pas vide ou ' ':
         if not new_quote_texte or new_quote_texte.strip() == '':
             st.error("La citation ne peut pas être vide.")
-            st.stop() #Pour ne pas continuer l'éxécution du code
+            st.stop() 
         language = detector.detect_language_of(new_quote_texte)
         if language == Language.ENGLISH:
             #récupère le texte si non vide
             data = {"text": new_quote_texte}
-            #écrire une info si ça prend du temps
             st.info("➿Envoie à l'API")
 
             try:

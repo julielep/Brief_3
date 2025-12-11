@@ -1,36 +1,44 @@
-Installation des bibliothèques
-pip install fastapi uvicorn
+*Architecture :*
 
-Un mini programme complet:
-
-frontend (streamlit)
-backend:
-modules (contenir nos propres modules)
-data (nos csv)
-Architecture
 mon projet/
 ├─────backend
+│   ├───API
+│   │    └── BD_api.py
+│   │    └── sentiment_api.py
+│   │  
 │   ├───modules
 │   │    └── df_tools.py
-│   ├───data
-│   │    └── quotes_db.csv
-│   │    └── DB_quotes.db
-│   └── main.py
+│   │    └── sentiment_tools.py
+│   │    
+│   └───data
+│        └── DB_quotes.db
 │   
-├───frontend
-│   ├──app.py
-│   └──pages 
-│       ├─0_insérer.py
-│       ├─1_Afficher.py
-│       ├─2_rechercher.py
+│   
+├─────frontend
+│   ├───app.py
+│   └───pages 
+│        └──0_Insert_quote.py
+│        └──1_Afficher.py
+│        └──2_Recherche.py
+│
 ├─README.md
 ├─.venv
 └─.gitignore
-Ma base de données "quotes_db.csv"
-Colonnes :
 
-id
-text
-Commande pour lancer le serveur uvicorn
-uvicorn backend.main:app --reload --log-level debug
-debug pour afficher les log dans le terminal
+Ma base de données "quotes_db.csv"
+|Citation |
+|:--------|
+|ID       |
+|text     |
+
+
+### Commandes
+- Démarrage des serveurs uvicorn :
+```bash
+python -m backend.API.sentiment_api
+python -m backend.API.BD_api
+```
+- Lancement de streamlit :
+```bash
+streamlit run .\frontend\APP\app.py   
+```
