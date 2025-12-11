@@ -1,3 +1,4 @@
+#frontend/pages/2_Recherche.py
 import streamlit as st
 import requests
 import os
@@ -16,6 +17,7 @@ st.subheader("Citation par ID")
 API_URL = API_ROOT_URL + "/read/"
 API_URL_IDX = API_ROOT_URL + "/read/idx/"
 
+# ---- Récupère la citation ----
 try:
     idx_response = requests.get(API_URL_IDX)
     if idx_response.status_code == 200:
