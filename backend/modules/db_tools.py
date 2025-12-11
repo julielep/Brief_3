@@ -35,7 +35,7 @@ def write_db(texte : str):
     session.add(CITATION)
     session.commit()
     session.close()
-    print("Utilisateur ajouté avec succès.")
+    logger.info(f"La citaiton '{CITATION}' a bien été ajoutée à la base de données.")
 
 
 def read_db()->pd.DataFrame: 
