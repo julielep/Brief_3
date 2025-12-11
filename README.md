@@ -2,14 +2,9 @@
 
 projet/
 ├── backend/
-│   │
 │   ├── API/
-│   │
 │   │   ├── BD_api.py
-│   │
 │   │   └── sentiment_api.py
-│   │
-│   │
 │   ├── modules/
 │   │   ├── df_tools.py
 │   │   └── sentiment_tools.py
