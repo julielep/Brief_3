@@ -1,4 +1,4 @@
-# frontend/pages/0_insérer.py
+# frontend/pages/1_Afficher.py
 import streamlit as st
 import requests 
 import os 
